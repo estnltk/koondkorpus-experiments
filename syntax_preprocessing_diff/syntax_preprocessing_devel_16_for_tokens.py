@@ -1,14 +1,17 @@
 import json
 from time import time
 import argparse
+import os
 
 from estnltk.syntax.syntax_preprocessing import SyntaxPreprocessing
 from estnltk.text import Text
 from estnltk.text import Layer
 from estnltk.legacy.text import Text as OldText
 
-fs_to_synt_rules_file = '../../estnltk/estnltk/rewriting/syntax_preprocessing/rules_files/tmorftrtabel.txt'
-subcat_rules_file = '../../estnltk/estnltk/rewriting/syntax_preprocessing/rules_files/abileksikon06utf.lx'
+from core import PACKAGE_PATH
+
+fs_to_synt_rules_file = os.path.join(PACKAGE_PATH, '../estnltk/estnltk/rewriting/syntax_preprocessing/rules_files/tmorftrtabel.txt')
+subcat_rules_file = os.path.join(PACKAGE_PATH, '../estnltk/estnltk/rewriting/syntax_preprocessing/rules_files/abileksikon06utf.lx')
 allow_to_remove_all = False
 
 
@@ -81,18 +84,24 @@ def syntax_preprocessing_for_tokens(fs_to_synt_rules_file, subcat_rules_file,
     pipeline = SyntaxPreprocessing(fs_to_synt=fs_to_synt_rules_file,
                                    subcat=subcat_rules_file,
                                    allow_to_remove_all=allow_to_remove_all)
-    with open(out_file, 'w') as out_file:
+    assert not os.path.exists(out_file), 'Output file "' + out_file +'" already exists.'
+    with open(out_file, 'w') as out_f:
         t0 = time()
+        t1 = t0
         for i, (token, analysis) in enumerate(yield_tokens_analysis(in_file)):
             text = words_sentences(token, analysis)
             result = pipeline.process_Text(text)
-            print(json.dumps((token, result), ensure_ascii=False), file=out_file)
+            print(json.dumps((token, result), ensure_ascii=False), file=out_f)
 
 
             if i%200 == 0:
-                print('.', end='', flush=True)
-                if i%10000 == 0 and i:
-                    print(i, (time()-t0)/i, token)
+                if i:
+                    print('.', end='', flush=True)
+                    if i%10000 == 0:
+                        t2 = time()
+                        print('{:10,d} tokens, {:.3f} ({:.3f}) ms/token, {}'.format(i, 1000*(t2-t0)/i, 1000*(t2-t1)/10000, token))
+                        t1 = t2
+    print(i+1, 'lines written to ', out_file)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
