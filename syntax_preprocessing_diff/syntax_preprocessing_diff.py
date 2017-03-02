@@ -19,7 +19,7 @@ def diff(in_file_1, in_file_2, out_file):
         if c%100000 == 0:
             print('.', end='', flush=True)
             if c%1000000 == 0:
-                print(c, 'tokens,', len(differences), 'differences')
+                print('', c, 'tokens,', len(differences), 'differences')
         try:
             line_1 = next(lines_1)
         except StopIteration:
