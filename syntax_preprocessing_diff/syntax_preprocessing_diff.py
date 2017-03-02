@@ -31,6 +31,7 @@ def diff(in_file_1, in_file_2, out_file):
         if line_1 is None and line_2 is None:
             break
         if line_1 != line_2:
+            # if line_2 is None: break
             assert line_1 is not None, in_file_1 + ' is too short'
             assert line_2 is not None, in_file_2 + ' is too short'
             token_1, syntax_pp_1 = json.loads(line_1.rstrip())
