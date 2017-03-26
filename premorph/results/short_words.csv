@@ -1,0 +1,662 @@
+short_word,support,examples
+maa,580,"['maa-algkoolid', 'maa-aluseid', 'maa-arstidele']"
+töö,474,"['töö-lubaduste', 'töö-otsijatele', 'võidu-töö']"
+elu,408,"['elu-asemepoliitikas', 'elu-stiili', 'elu-viisi']"
+üle,404,"['üle-eestine', 'üle-kümne-tuhandeliste', 'üle-treeningust']"
+ühe,325,"['ühe-kaheaastases', 'ühe-kahekorruselist', 'ühe-minuti-arvustused']"
+tee,262,"['tee-ehituslepingute', 'tee-ehitusprojektist', 'tee-istandust']"
+vee,262,"['vee-eelnõu', 'vee-efektiga', 'vee-motoklubi']"
+aja,259,"['aja-kirjanikule', 'aja-lool', 'ülemineku-aja']"
+ja,243,"['informaatika-ja', 'lae-ja-lase', 'silma-ja']"
+pea,233,"['pea-staabist', 'pea-toimetajakonkurss', 'pea-treeneril']"
+eel,220,"['eel-arvekulutustest', 'eel-arveosakonna', 'eel-ujumisest']"
+Maa,208,"['Maa-alalt', 'Maa-keskne', 'Maa-nimelisel']"
+ala,205,"['Ida-ala', 'ala-grupivastaste', 'ala-osa']"
+või,202,"['esi-või', 'teadus-või', 'ülem-või']"
+ida,190,"['ida-arveldustes', 'ida-eestlasi', 'ida-friisi']"
+osa,171,"['Salati-osa', 'finaal-osa', 'osa-ajatööks']"
+ta,159,"['pais-ta', 'teadma-ta', 'töö-loa-ta']"
+te,157,"['hoolealus-te', 'müügi-mees-te', 'staabiülema-te']"
+era,156,"['era-elust', 'era-kortermajade', 'era-ülikoolis']"
+eri,151,"['eri-efektide', 'eri-impordisüsteemidest', 'eri-osastavat']"
+isa,150,"['isa-lapse', 'isa-veli', 'risti-isa']"
+abi,149,"['abi-nõudega', 'abi-vajajaga', 'juhi-abi']"
+aeg,146,"['hundijahihoo-aeg', 'null-aeg', 'viisa-aeg']"
+ema,144,"['ema-keel', 'haldja-ema', 'põdra-ema']"
+uus,139,"['uus-abitute', 'uus-elamuid', 'uus-slavofiilsus']"
+iga,135,"['Inc-iga', 'iga-aastastele', 'lasteaia-iga']"
+ma,130,"['asus-ta-ma-ta', 'oda-va-ma', 'sõit-ma']"
+äri,130,"['äri-inimestele', 'äri-intellektitehnika', 'äri-keskkond']"
+eks,122,"['eks-ametnike', 'eks-ihukaitsja', 'eks-vangidele']"
+all,104,"['all-asutusi', 'all-ettevõte', 'all-töövõtja']"
+oma,101,"['oma-ette', 'oma-finantseeringu', 'oma-poolse']"
+esi,99,"['esi-osa', 'esi-ots', 'esi-sprinteriks']"
+de,99,"['huvi-de', 'kõne-de', 'sügispäeva-de']"
+jõu,93,"['jõu-struktuurid', 'jõu-treeninguga', 'mõju-jõu']"
+Kuu,86,"['Kuu-aparaat', 'Kuu-projekti', 'Kuu-päevaliselt']"
+Ida,86,"['Ida-blokist', 'Ida-orientatsiooni', 'Ida-pataljonide']"
+hea,84,"['hea-kuri', 'hea-soe-pehme', 'hea-tegevuskontserdil']"
+na,83,"['12-na', 'jõu-na', 'too-na-sest']"
+mäe,83,"['Võlla-mäe', 'mäe-kodu', 'mäe-üksindus']"
+õhu,81,"['õhu-jõudude', 'õhu-löögid', 'õhu-uuringute']"
+asi,79,"['Ise-asi', 'asi-filmindus', 'kinnis-asi']"
+öö,76,"['maadlus-öö', 'öö-ajal', 'öö-olümpiamängud']"
+va,76,"['Sääst-va', 'and-va', 'oda-va']"
+ees,74,"['ees-kätt', 'ees-märk', 'kes-ees-see-mees']"
+soo,71,"['soo-küsimus', 'soo-piimputk', 'soo-uurijaist']"
+jää,70,"['jää-etenduste', 'jää-äädikhappe', 'jää-äärekülades']"
+ava,69,"['ava-aastate', 'ava-süli', 'õhuvõtu-ava']"
+ära,69,"['ära-kaugele', 'ära-korrutatud', 'ära-ootajat']"
+kuu,68,"['kuu-muinasjutte', 'kuu-usust', 'kuu-uurijana']"
+ise,68,"['ise-loo-mus-ta', 'ise-seis-va', 'ise-ärasuseks']"
+usu,67,"['kabala-usu', 'usu-me', 'usu-teema']"
+puu,66,"['ee-puu', 'puu-maja', 'puu-nõude']"
+me,65,"['näe-me', 'soo-me', 'toi-me']"
+ime,63,"['ime-ime', 'ime-odav', 'ime-ootamise']"
+ilu,58,"['ilu-ideaalidega', 'ilu-pajalappe', 'ilu-tulestikurakett']"
+ase,57,"['ase-peasekretärina', 'ase-presidendikandidaadina', 'ase-spiikri']"
+Üle,57,"['Üle-määra', 'Üle-värvitud', 'Üle-üldse']"
+edu,56,"['edu-aruandes', 'edu-ideoloogiale', 'täis-edu']"
+moe,55,"['moe-eelistus', 'moe-looja', 'moe-ringkondadest']"
+alg,51,"['alg-aegadest', 'alg-fantoom', 'alg-klassiõpetajaid']"
+nõu,51,"['nõu-andev', 'nõu-koguliku', 'nõu-kogulikumalt']"
+eht,50,"['eht-californialikult', 'eht-eestilikult', 'eht-euroopalikud']"
+tas,49,"['eelis-tas', 'esi-tas', 'valmis-tas']"
+aed,49,"['Kirsi-aed', 'aed-lumeroos', 'aed-põõsalind']"
+Töö,49,"['Töö-andjad', 'Töö-hõiveametis', 'Töö-inspektsioon']"
+aju,48,"['aju-haigused', 'aju-uurdes', 'aju-uuringutel']"
+loo,48,"['Aruküla-loo', 'Talve-loo', 'loo-jutustamine']"
+tõe,47,"['tõe-poolest', 'tõe-truudusega', 'tõe-uurijad']"
+jah,47,"['Ja-jah', 'ja-jah', 'jah-hääletajaid']"
+au,46,"['au-hinda', 'au-nimetusi', 'au-president']"
+gei,45,"['gei-abielu', 'gei-jutuga', 'gei-ringkondadele']"
+ses,45,"['hiljuti-ses', 'igapäeva-ses', 'nai-ses']"
+une,44,"['une-ajast', 'une-juttu', 'une-ärkveloleku']"
+ka,43,"['ka-va-la', 'ka-vandatavad', 'lae-ka-unistus']"
+õli,42,"['inspiratsiooni-õli', 'maa-õli', 'õli-kütet']"
+Tee,41,"['Tee-ehitajatel', 'Tee-ehitusele', 'Tee-ehitusraha']"
+ufo,40,"['ufo-objektidelt', 'ufo-teemalisi', 'ufo-teemalist']"
+õhk,40,"['maa-õhk-maa', 'maa-õhk-rakett', 'õhk-õrna']"
+onu,40,"['Karu-onu', 'Kaunispaiga-onu', 'kopra-onu']"
+sa,37,"['ilu-sa', 'liht-sa-te', 'mäe-suu-sa-kes-kus']"
+la,37,"['End-la', 'hoid-la', 'kel-la']"
+eas,36,"['hooldekodu-eas', 'poisikese-eas', 'vanaisa-eas']"
+Vee,35,"['Vee-ettevõte', 'Vee-ettevõtjate', 'Vee-kolmnurga']"
+suu,35,"['suu-pillipealinnaks', 'suu-pärane', 'suu-ulatuses']"
+hoo,35,"['hoo-ajaeelseid', 'hoo-ajalist', 'hoo-ajatöölisi']"
+aia,34,"['Rist-aia', 'aia-tööde', 'traat-aia']"
+mee,34,"['mee-aasta', 'mee-ingveri', 'mee-küüslaugusegu']"
+olu,33,"['asja-olu', 'iga-olu-kindlat', 'nähtaval-olu']"
+näo,33,"['näo-lõualuukirurgi', 'näo-osadele', 'üle-näo-jumestajaks']"
+ilm,33,"['ilm-aga', 'läänemaa-ilm', 'tantsumaa-ilm']"
+alt,32,"['alt-atribuut', 'alt-käemaksuskandaali', 'alt-paremalt']"
+üks,32,"['üks-ainuke', 'üks-kord', 'üks-null']"
+usk,32,"['illusioonide-usk', 'loodus-usk', 'tuleviku-usk']"
+väe,31,"['väe-osad', 'väe-usulisest', 'väe-üksused']"
+mai,30,"['Aprilli-mai', 'mai-kuninganna', 'mai-kuus']"
+aru,29,"['Tamm-aru', 'aru-ande', 'aru-saajate']"
+Eks,29,"['Eks-keiser', 'Eks-presskaardi', 'Eks-riigisekretär']"
+mus,28,"['ise-loo-mus', 'mus-talt', 'väsi-mus']"
+käe,27,"['käe-jala', 'käe-käigu', 'käe-käik']"
+ego,27,"['ego-kaartide', 'ego-laadse', 'ego-teadvuse']"
+su,26,"['heit-me-ta-su', 'ka-su-ta', 'palgatõu-su']"
+õde,26,"['õde-koordinaator', 'õde-perenaise', 'õde-perenaisena']"
+Uus,26,"['Uus-põld', 'Uus-renessanss', 'Uus-urbanistlikus']"
+Eel,26,"['Eel-arveperioodil', 'Eel-nõu', 'Eel-olevaks']"
+Pea,25,"['Pea-grupp', 'Pea-pea', 'Pea-poolt']"
+poe,25,"['Interneti-poe', 'poe-esist', 'poe-kuuseehetega']"
+Tai,24,"['Tai-juhtum', 'Tai-reisi', 'Tai-sõitu']"
+mu,24,"['aru-saa-mu', 'haldusvõi-mu', 'mu-retsemiseks']"
+sel,23,"['auväär-sel', 'endi-sel', 'öö-sel']"
+mao,23,"['mao-aasta', 'mao-sooletraktile', 'mao-sooletraktist']"
+kas,23,"['Alas-kas', 'kas-vanud', 'tõu-kas']"
+nii,22,"['nii-kaua', 'nii-kui-nii', 'nii-samuti']"
+Ühe,22,"['Ühe-aegselt', 'Ühe-kaheaastased', 'Ühe-kahelehmapidajate']"
+ei,22,"['ei-kellegi-maana', 'ei-kusagilt', 'ei-teine']"
+peo,22,"['Tantsu-peo', 'peo-meeleolus', 'peo-täie']"
+Iga,22,"['Iga-aastase', 'Iga-aastasele', 'Iga-päevased']"
+lau,22,"['lau-päevaks', 'lau-päeval', 'lau-päevasest']"
+ist,21,"['Reporter-ist', 'Times-ist', 'ekspress-ist']"
+kus,21,"['Tas-kus', 'Vai-kus', 'ole-kus-olemisega']"
+aas,21,"['14-aas-tase', 'aas-ristikheina', 'aas-taks']"
+õue,21,"['õue-keerdtrepiga', 'õue-küünaldeni', 'õue-uneks']"
+sea,21,"['sea-aastat', 'sea-kasvatusse', 'sea-liha']"
+muu,20,"['muu-hulgas', 'muu-keelses', 'muu-riiulite']"
+las,20,"['Poo-las', 'ida-saks-las-test', 'üliõpi-las-te']"
+ohu,19,"['Venemaa-ohu', 'ohu-kasu', 'ohu-tsoonist']"
+luu,19,"['luu-liigessüsteemi', 'luu-liigestehaiguse', 'näpu-luu']"
+Elu,19,"['Elu-asemele', 'Elu-kvaliteedi', 'Elu-kvaliteet']"
+Isa,19,"['Isa-maaliidu', 'Isa-maaliidule', 'Isa-maaliit']"
+õpi,19,"['õpi-aeg', 'õpi-tavale', 'õpi-tulemustest']"
+Ema,18,"['Ema-jõe', 'Ema-jõge', 'Ema-poeg']"
+oja,18,"['Nõmm-oja', 'Põld-oja', 'Tiks-oja']"
+ea,17,"['ea-liste', 'pika-ea-soovi', 'pubeka-ea']"
+asu,17,"['asu-va', 'asu-va-test', 'asu-vast']"
+mis,17,"['ela-mis-loa', 'mis-sa-siia-tuled', 'terroris-mis']"
+Era,17,"['Era-investeeringute', 'Era-isikute', 'Era-pangale']"
+süü,16,"['süü-pinki', 'süü-tõend', 'süü-tõendid']"
+uss,16,"['kahetsuse-uss', 'kahtluse-uss', 'madu-uss']"
+tea,16,"['ei-tea-partei', 'tea-de', 'tea-ta-va']"
+Jää,16,"['Jää-lõhkuja', 'Jää-ääre', 'Jää-ääres']"
+uue,15,"['tutt-uue', 'uue-kooli', 'uue-mate']"
+Öö,15,"['Öö-inimesed', 'Öö-päevaringselt', 'Öö-visioon']"
+akt,15,"['akt-ettekirjutuse', 'haldus-akt', 'normi-akt']"
+ust,14,"['kaitse-ust', 'kassett-ust', 'kempsu-ust']"
+ihu,14,"['apelsini-ihu', 'ihu-vaimu', 'vaim-hing-ihu']"
+ela,14,"['ela-ma', 'ela-mis-loa', 'ela-nikud']"
+net,14,"['Net-net', 'net-iks', 'too-rai-net']"
+Aja,14,"['Aja-kirjandus', 'Aja-leht', 'Aja-usaldus']"
+iha,14,"['medali-iha', 'puhvertsooni-iha', 'raamatu-iha']"
+ööl,14,"['Eurovisiooni-ööl', 'Halloweeni-ööl', 'Kesk-ööl']"
+All,14,"['All-järgnevalt', 'All-linnast', 'All-töövõtjate']"
+Puu,14,"['Puu-detailid', 'Puu-põllunduse', 'Puu-uurija']"
+arv,14,"['Ava-arv', 'arv-näitajate', 'piir-arv']"
+rea,13,"['rea-eestlane', 'rea-pealt', 'seikade-rea']"
+see,13,"['see-aeg', 'see-juures', 'see-tõttu']"
+Mäe,13,"['Mäe-kodus', 'Mäe-meestest', 'Mäe-ots']"
+and,13,"['and-meid', 'and-mete', 'and-metel']"
+Soo,13,"['Soo-kruusi', 'Soo-me', 'Soo-mest']"
+isu,13,"['isu-äratavalt', 'kohvi-isu', 'söögi-isu']"
+jaa,13,"['No-jaa', 'jaa-sõnagi', 'jaa-vastus']"
+Äri,13,"['Äri-idee', 'Äri-ideid', 'Äri-tööstusotstarbelised']"
+ole,13,"['ole-kus-olemisega', 'ole-me', 'ole-tegi']"
+äär,13,"['all-äär', 'parem-äär', 'äär-kaitsja']"
+ait,13,"['ait-kuivati', 'ait-saun', 'tõllakuur-ait']"
+oa,12,"['oa-kalkunisalat', 'oa-tomatikastmes', 'peekoni-sibula-oa']"
+sai,12,"['Leib-sai', 'leib-sai', 'sai-võis']"
+saa,12,"['saa-ma', 'saa-ma-ta', 'saa-me']"
+õrn,12,"['õhk-õrn', 'õrn-anarhistlik', 'õrn-tundlik']"
+Esi,12,"['Esi-algne', 'Esi-algsete', 'Esi-algu']"
+Ees,12,"['Ees-märgid', 'Ees-märgiks', 'Ees-ootavad']"
+Eri,12,"['Eri-korrespondent', 'Eri-olukorra', 'Eri-õppeprogramme']"
+tõu,11,"['tõu-kas', 'tõu-keks', 'tõu-su']"
+õpe,11,"['klaveri-õpe', 'täiend-õpe', 'välja-õpe']"
+sus,11,"['lampjalg-sus', 'pai-sus', 'täht-sus']"
+auk,11,"['auk-maja', 'kulla-auk', 'päikese-auk']"
+vau,11,"['Vau-vau', 'Vau-vau-vau', 'viu-vau']"
+teo,11,"['teo-kraatlik', 'teo-võime', 'teo-võimelist']"
+loa,11,"['Töö-loa', 'lepingu-loa', 'loa-omaniku']"
+jõe,11,"['jõe-kraavi-oja', 'jõe-teemaline', 'jõe-äärsete']"
+jae,11,"['jae-hind', 'jae-mitmuse', 'jae-müügiga']"
+õla,11,"['Üle-õla', 'õla-trauma', 'õlg-õla-tundeks']"
+duo,11,"['duo-lauvärvi', 'duo-trio', 'eurotantsu-duo']"
+osi,10,"['Pea-osi', 'Plast-osi', 'pea-osi']"
+ots,10,"['Interneti-ots', 'esi-ots', 'roo-ots']"
+Nõu,10,"['Nõu-kogu', 'Nõu-koguga', 'Nõu-kogus']"
+õe,10,"['arsti-õe', 'usu-õe', 'õe-arsti']"
+Jah,10,"['Jah-liikumine', 'Jah-liikumise', 'Jah-vastustele']"
+Aed,10,"['Aed-liivatee', 'Aed-varesjala', 'Aed-varesjalg']"
+Oma,10,"['Oma-näoline', 'Oma-valitsus', 'Oma-valitsuste']"
+udu,10,"['abstraktsiooni-udu', 'udu-kaid', 'udu-uurijale']"
+IDA,10,"['IDA-HARJU', 'IDA-LÄÄS', 'IDA-VIRUMAA']"
+uks,10,"['pööningu-uks', 'uks-aken', 'uks-uksepost']"
+iks,10,"['Martin-iks', 'Roman-iks', 'iks-taktis']"
+ori,10,"['kõhu-ori', 'ori-plaatidel', 'ori-tüvega']"
+vii,10,"['vii-maks', 'vii-mast', 'vii-tavad']"
+Ava,10,"['Ava-akord', 'Ava-arv', 'Ava-kõnes']"
+veo,10,"['veo-autod', 'veo-autodega', 'veo-jõudu']"
+lao,10,"['kauplus-lao', 'kontor-lao', 'lao-olmehoone']"
+kes,10,"['kes-ees-see-mees', 'kes-kuse', 'väi-kes-te']"
+vai,10,"['vai-vai', 'vai-vai-vai', 'vai-vai-vai']"
+ah,10,"['Ja-ah', 'ah-ah', 'ah-ah-hüüete']"
+toa,9,"['Liisu-toa', 'toa-täie', 'toa-tüdruk']"
+Oti,9,"['Oti-aegne', 'Oti-asjaga', 'Oti-sarnast']"
+ost,9,"['müük-ost', 'ost-ma', 'ost-müüki']"
+uni,9,"['ilu-uni', 'töö-kodu-uni', 'uni-suvi-hommikune']"
+üht,9,"['üht-aegu', 'üht-la-selt', 'üht-seks']"
+vip,9,"['vip-rõdult', 'vip-teeninduse', 'vip-telgis']"
+too,9,"['too-kord', 'too-mine', 'too-te']"
+Käo,9,"['Käo-keskuse', 'Käo-kool', 'Käo-sugune']"
+müü,9,"['müü-giga', 'müü-mine', 'müü-ristseen']"
+Aas,9,"['Aas-põllu', 'Aas-taks', 'Aas-tal']"
+ahi,9,"['ahi-küttega', 'põletus-ahi', 'suitsu-ahi']"
+oda,9,"['Oda-oda', 'oda-nimelise', 'oda-vaim']"
+Moe,9,"['Moe-eelistus', 'Moe-kunstnikke', 'Moe-show']"
+kee,9,"['kee-la-ta', 'kee-laks', 'kee-lest']"
+sõu,9,"['sõu-etteasteid', 'sõu-spordiga', 'tõsielu-sõu']"
+Alt,8,"['Alt-klahviga', 'Alt-käemaksuga', 'Alt-nooleklahvid']"
+toi,8,"['toi-me', 'toi-mu', 'toi-mus']"
+no,8,"['Vai-no', 'no-jaa', 'no-noh']"
+oht,8,"['euro-oht', 'kuriteo-oht', 'ärasöömise-oht']"
+Lau,8,"['Lau-päeval', 'Lau-päevasel', 'Lau-päevast']"
+Abi,8,"['Abi-elukriis', 'Abi-elurahvas', 'Abi-maile']"
+kui,8,"['Nii-kui-nii', 'kui-tahes', 'kui-vast']"
+Mao,8,"['Mao-aegsest', 'Mao-järgsetest', 'Mao-sooletrakti']"
+puh,8,"['puh-kama', 'puh-kust', 'puh-tast']"
+ööd,8,"['töö-ööd', 'tööõhtut-ööd', 'võrkkiige-ööd']"
+tai,8,"['tai-hiina', 'tai-inglise', 'tai-poksi']"
+eru,8,"['eru-kolonelleitnant', 'eru-spioon', 'eru-sõjaväelased']"
+Tõe,8,"['Tõe-näoliseks', 'Tõe-näolisem', 'Tõe-poolest']"
+MAA,8,"['MAA-ALALE', 'MAA-ILM', 'MAA-ILMA']"
+Ufo,8,"['Ufo-lugudele', 'Ufo-lugudest', 'Ufo-objektidega']"
+lae,8,"['lae-kumise', 'lae-kus', 'metall-lae']"
+aku,8,"['Aku-aku', 'aku-kere-mootori', 'generaator-aku-tuled']"
+See,8,"['See-aeg', 'See-kord', 'See-nimelise']"
+ju,8,"['ju-risti', 'ju-tuks', 'ma-ju']"
+pai,8,"['Pai-pai', 'pai-sus', 'piu-pai']"
+Noa,8,"['Noa-aegse', 'Noa-aegses', 'Noa-alus']"
+MAI,8,"['ANNE-MAI', 'EHA-MAI', 'KAI-MAI']"
+õun,8,"['õun-kirss-aroonia', 'õun-porgand-spinat', 'õun-tele']"
+ale,8,"['ale-sildiga', 'ale-tüüpi', 'nähvits-ale']"
+Hea,7,"['Hea-loomuline', 'Hea-muusika', 'Hea-oluühiskonnast']"
+lõi,7,"['lõi-kasid', 'lõi-kudes', 'lõi-kusi']"
+pae,7,"['pae-kivikoopas', 'pae-platoo', 'pae-sõjale']"
+rai,7,"['rai-kuninganna', 'rai-laulja', 'rai-staar']"
+org,7,"['Suur-org', 'Uus-org', 'sport-org']"
+aus,7,"['aus-alatu', 'aus-tusavaldusena', 'puhas-aus-õiglane']"
+Rae,7,"['Rae-koja', 'Rae-platsilt', 'Rae-press']"
+Nii,7,"['Nii-nimetatud', 'Nii-viisi', 'Nii-öelda']"
+näi,7,"['näi-ta-ma', 'näi-tavad', 'näi-tuste']"
+õlg,7,"['õlg-õla', 'õlg-õla-kõrval', 'õlg-õla-tundeks']"
+õlu,7,"['laager-õlu', 'meeste-õlu', 'õlu-viin']"
+täi,7,"['täi-sealine', 'täi-sealise', 'täi-sealiseks']"
+noa,7,"['kahvli-noa', 'noa-tera', 'noa-uksele']"
+Üks,7,"['Üks-kõik', 'Üks-küla', 'Üks-olemise']"
+eit,7,"['eit-taat', 'kojamehe-eit', 'taat-eit']"
+Ego,7,"['Ego-järelmaksukaardid', 'Ego-kaardi', 'Ego-kaardiga']"
+ehe,7,"['ehe-haljas', 'kaela-ehe', 'kuld-ehe']"
+roo,7,"['roo-ala', 'roo-lõikusest', 'roo-ots']"
+arg,7,"['arg-julge', 'arg-püks', 'arg-pükslikkust']"
+soe,7,"['soe-külm', 'soe-niiske', 'soe-soe']"
+ai,6,"['ai-mu', 'ai-na', 'ai-tas']"
+ahv,6,"['Maa-ahv', 'ahv-sõdurit', 'ahv-tähekombinatsiooni']"
+Osa,6,"['Osa-täitja', 'Osa-võtjad', 'Osa-üldplaneering']"
+lai,6,"['lai-ekraaniga', 'lai-ribaühendus', 'pahameele-lai-net']"
+Sea,6,"['Sea-aastal', 'Sea-põrsast', 'Sea-saksa']"
+ese,6,"['ese-hoone', 'riide-ese', 'tarbe-ese']"
+Une,6,"['Une-eelne', 'Une-nägu', 'Une-ärkveloleku']"
+Ise,6,"['Ise-ilutegija', 'Ise-küsimus', 'Ise-seisvuspäev']"
+Edu,6,"['Edu-kas', 'Edu-kaupluseketi', 'Edu-keti']"
+Luu,6,"['Luu-lihaskonna-vaevused', 'Luu-uurimisest', 'Luu-üdi']"
+ega,6,"['koera-ega', 'mees-ega', 'vestlus-ega']"
+und,6,"['Ilu-und', 'ilu-und', 'und-ärkvelolekut']"
+Või,6,"['Või-malikult', 'Või-mekas', 'Või-või-või']"
+viu,6,"['viu-viu', 'viu-viu', 'viu-viu-viu']"
+Hoo,6,"['Hoo-aeg', 'Hoo-hoo-hoo', 'Hoo-limata']"
+Oja,6,"['Oja-mäe', 'Oja-nimelist', 'Oja-soo']"
+toe,6,"['toe-ta', 'toe-tanud', 'toe-tas']"
+Aeg,6,"['Aeg-ajalt', 'Aeg-ruum', 'Aeg-tegelane']"
+väi,6,"['väi-kes-te', 'väi-kest', 'väi-teid']"
+koe,6,"['koe-ensüümi', 'koe-purustuse', 'koe-struktuurid']"
+Ei,6,"['Ei-kellegi-maa', 'Ei-no', 'Ei-tea-kust']"
+õie,6,"['õie-erakond', 'õie-kroonid', 'õie-küünlad']"
+Aru,6,"['Aru-anne', 'Aru-pere', 'Aru-suguse']"
+oru,6,"['Aas-oru', 'Kadri-oru', 'Uus-oru']"
+Leo,6,"['Leo-ajal', 'Leo-kas-sa', 'Leo-seebid']"
+sae,5,"['Partner-sae', 'plastmass-sae', 'tross-sae']"
+vea,5,"['vea-olukordi', 'vea-sendi', 'viga-vea-otsa']"
+Eht,5,"['Eht-ameerikalikult', 'Eht-britilikult', 'Eht-eestilik']"
+õu,5,"['maasika-õu-na-rabarberi', 'õu-konna', 'õu-konnaintriige']"
+Oru,5,"['Oru-taoliste', 'Oru-teemalistele', 'Oru-teemalistes']"
+kao,5,"['kao-tanud', 'kao-tati', 'kao-tust']"
+Ess,5,"['Ess-soos', 'Ess-soosse', 'Ess-soost']"
+poo,5,"['maa-poo-la-kas', 'poo-de', 'poo-la-ka-te']"
+Jõu,5,"['Jõu-kust', 'Jõu-lust', 'Jõu-luud']"
+Ost,5,"['Ost-ja', 'Ost-markasid', 'Ost-müük']"
+tal,5,"['aas-tal', 'tal-linlased', 'tal-vine']"
+Mai,5,"['Mai-august', 'Mai-laine', 'Mai-sugune']"
+käi,5,"['käi-ma', 'käi-tuks', 'õnnis-käi-ringi']"
+idu,5,"['kartuli-idu', 'legendi-idu', 'skandaali-idu']"
+vöö,5,"['kiviklibu-vöö', 'vöö-alusel', 'vöö-kohta']"
+eh,5,"['Eh-eh', 'eh-eh', 'eh-matusest']"
+õnn,5,"['sõja-õnn', 'õnn-õnn', 'õnn-õnn']"
+üdi,5,"['Luu-üdi', 'luu-üdi', 'üdi-proovidele']"
+ehi,5,"['ehi-ta-ja', 'ehi-ta-mast', 'ehi-tas']"
+äss,5,"['ringraja-äss', 'trump-äss', 'äss-servi']"
+üür,5,"['elekter-üür', 'kuu-üür', 'üür-nikud']"
+Jaa,5,"['Jaa-pan', 'Jaa-panist', 'Jaa-sõna']"
+päi,5,"['purjus-päi', 'päi-kese', 'päi-kesevalgust']"
+äia,5,"['Ämma-äia', 'äia-ämmaga', 'ämma-äia']"
+hõi,5,"['hõi-mult', 'hõi-mus', 'hõi-vaks']"
+udi,4,"['udi-duo', 'udi-mängu', 'udi-mänguga']"
+Kõu,4,"['Kõu-internet', 'Kõu-interneti', 'Kõu-saart']"
+rae,4,"['rae-kojamehega', 'rae-kojas', 'rae-plats']"
+Jõe,4,"['Jõe-emand', 'Jõe-rüüt', 'Jõe-veer']"
+ESS,4,"['ESS-LASTE', 'ESS-lased', 'ESS-lastele']"
+emm,4,"['emm-kriipsu', 'emm-tee-jottides', 'emm-tee-jottidest']"
+nad,4,"['Va-nad', 'ka-nad', 'va-nad']"
+Ase,4,"['Ase-eesistuja', 'Ase-esimees', 'Ase-president']"
+Pii,4,"['Pii-ma', 'Pii-piiks', 'Pii-puppiidid']"
+Õhk,4,"['Õhk-vesi-tüüpi', 'Õhk-õhk-seadmete', 'Õhk-õhk-tüüpi']"
+õle,4,"['õle-inglist', 'õle-jalga', 'õle-tulevärgi']"
+kae,4,"['kae-eemaldusoperatsiooni', 'kae-kae', 'kae-kae']"
+oh,4,"['Oh-oh', 'oh-oh', 'oh-oo']"
+vae,4,"['vae-kausse', 'vae-selt', 'vae-vaga']"
+noh,4,"['Ei-noh', 'No-noh', 'ei-noh']"
+Net,4,"['Net-kõnedega', 'Net-paketiga', 'Net-tarkvaraga']"
+pii,4,"['pii-ma', 'pii-piid', 'pii-saks']"
+oo,4,"['Oh-oo', 'oh-oo', 'oo-ta-ma']"
+iva,4,"['informatsiooni-iva', 'moraali-iva', 'sinepi-iva']"
+nai,4,"['nai-ses', 'nai-sest', 'va-nai-saks']"
+pee,4,"['pee-ta', 'pee-ta-va', 'pee-ta-va-te']"
+pan,4,"['jaa-pan-la-sest', 'pan-na', 'pan-nakse']"
+Ah,4,"['Ah-aa', 'Ah-haa', 'Ah-jaa']"
+Aju,4,"['Aju-uuring', 'Aju-uuringud', 'Aju-uuringute']"
+aa,4,"['Ah-aa', 'aa-dress', 'ah-aa']"
+TEE,4,"['TEE-EHITUS', 'TEE-MAAILMA', 'TEE-lastel']"
+Loo,4,"['Loo-laadne', 'Loo-pere', 'Loo-vaks']"
+Üht,4,"['Üht-sest', 'Üht-teist', 'Üht-äkki']"
+söe,4,"['kivi-söe', 'söe-jõujaamas', 'söe-mees']"
+Muu,4,"['Muu-galeriis', 'Muu-hulgas', 'Muu-usuliste']"
+Õli,4,"['Õli-küüslaugumarinaad', 'Õli-vees', 'Õli-äädikakastme']"
+No,4,"['No-jah', 'No-neh', 'No-noh']"
+hai,4,"['hai-kana', 'hai-taolisi', 'trilleri-hai']"
+Uni,4,"['Uni-tool', 'Uni-versaal', 'Uni-öösorr']"
+aga,4,"['ilm-aga', 'saage-aga', 'tõusuteel-aga']"
+Õis,4,"['Õis-mäe', 'Õis-mäed', 'Õis-mäel']"
+arm,4,"['Venna-arm', 'suusa-arm', 'trauma-arm']"
+äpu,4,"['keeleteadlane-äpu', 'äpu-meest', 'äpu-olemist']"
+haa,4,"['Ah-haa', 'ah-haa', 'haa-va-ta']"
+ube,4,"['aed-ube', 'kakao-ube', 'põld-ube']"
+ike,3,"['kunst-ike', 'sangari-ike', 'terrori-ike']"
+UFO,3,"['UFO-HUVI', 'UFO-lase', 'UFO-laste']"
+ree,3,"['ree-eksporti', 'ree-ratta', 'ree-sõitu']"
+Poo,3,"['Poo-la', 'Poo-las', 'Poo-last']"
+IGA,3,"['IGA-AASTANE', 'IGA-AASTASE', 'IGA-AASTASED']"
+mh,3,"['Mh-mh', 'mh-mh', 'mh-mh']"
+alu,3,"['Rand-alu', 'alu-seks', 'alu-sel']"
+Vai,3,"['Vai-kus', 'Vai-no', 'Vai-vai-vai']"
+kel,3,"['kel-la', 'kes-kel', 'päh-kel']"
+ämm,3,"['Ema-ämm', 'Mämm-ämm', 'ämm-äi']"
+Aia,3,"['Aia-augu', 'Aia-maale', 'Aia-nimelist']"
+es,3,"['es-kaadrisse', 'luu-es', 'vestlus-es']"
+ena,3,"['ena-masti', 'ena-matel', 'ena-mus']"
+Õhu,3,"['Õhu-inimene', 'Õhu-kolmnurga', 'Õhu-väe']"
+Va,3,"['Va-na', 'Va-nad', 'Va-nemad']"
+II,3,"['I-II', 'II-I', 'II-VI']"
+Käe,3,"['Käe-jala', 'Käe-jalaluud', 'Käe-randmete']"
+öid,3,"['halla-öid', 'karaoke-öid', 'luupainaja-öid']"
+Ilu,3,"['Ilu-trükikoja', 'Ilu-uisutaja', 'Ilu-und']"
+õud,3,"['karaoke-õud', 'õud-seksika', 'õud-soodsaid']"
+Vii,3,"['Vii-ma-sel', 'Vii-maks', 'Vii-mast']"
+Mee,3,"['Mee-juurviljahautis', 'Mee-mahlasegu', 'Mee-sidrunimask']"
+öös,3,"['kevad-öös', 'sügis-öös', 'töö-öös']"
+Pai,3,"['Pai-de', 'Pai-pai', 'Pai-sust']"
+Tal,3,"['Tal-linn', 'Tal-linna', 'Tal-linnas']"
+Ka,3,"['Ka-na', 'Ka-on', 'Ka-su']"
+Ala,3,"['Ala-grupist', 'Ala-jõe', 'Ala-mets']"
+et,3,"['erinõu-et', 'et-te', 'et-te-kand-ja-te-na']"
+äi,3,"['Eks-äi', 'jää-äi', 'ämm-äi']"
+Gei,3,"['Gei-ikoonid', 'Gei-indeks', 'Gei-kauboide']"
+Õde,3,"['Õde-perenaine', 'Õde-vend', 'Õde-venda']"
+mul,3,"['Või-mul', 'mul-la', 'või-mul']"
+liu,3,"['liu-istmikuga', 'liu-laskjatega', 'liu-mäel']"
+näh,3,"['näh-ta', 'näh-ta-vaks', 'näh-tust']"
+uu,3,"['uu-ring', 'uu-te', 'uu-test']"
+UDU,3,"['UDU-UDU-UDU', 'UDU-UDU-UDU', 'UDU-UDU-UDU']"
+VI,3,"['I-VI', 'II-VI', 'VII-VI']"
+Ohu,3,"['Ohu-märk', 'Ohu-olukorras', 'Ohu-uuringute']"
+äiu,3,"['Äiu-äiu', 'äiu-äiu', 'äiu-äiu']"
+ee,3,"['ee-male', 'ee-puu', 'punkt-ee']"
+Üdi,3,"['Üdi-jäljenduste', 'Üdi-tüüpi', 'Üdi-žanrist']"
+Vip,3,"['Vip-klubi', 'Vip-klubist', 'Vip-mehed']"
+Ilm,3,"['Ilm-järv', 'Ilm-selt', 'Ilm-võimatu']"
+sõi,3,"['sõi-ma', 'sõi-mata', 'sõi-ta']"
+UUS,3,"['UUS-MEREMAA', 'UUS-MEREMAALT', 'UUS-VARGAMÄE']"
+EHA,2,"['EHA-MAI', 'ÕNNE-EHA']"
+piu,2,"['Piu-piu', 'piu-pai']"
+ere,2,"['ere-ereroheline', 'ere-ererohelises']"
+Uue,2,"['Uue-matel', 'Uue-teatris']"
+Vau,2,"['Vau-vau', 'Vau-vau-vau']"
+tui,2,"['tui-na', 'tui-raamatut']"
+ott,2,"['ott-ott', 'ott-ott']"
+püü,2,"['püü-avad', 'püü-takse']"
+Duo,2,"['Duo-konto', 'Duo-mälukaardi']"
+oks,2,"['oks-teemad', 'orhidee-oks']"
+koo,2,"['koo-litused', 'koo-tööd']"
+Jae,2,"['Jae-kaubanduse', 'Jae-müüjate']"
+Coq,2,"['Coq-iga', 'Coq-ist']"
+äti,2,"['selgeltnägija-äti', 'vana-äti']"
+End,2,"['End-la', 'End-las']"
+ude,2,"['karva-ude', 'vurru-ude']"
+mil,2,"['jala-mil', 'mil-jardi']"
+Sae,2,"['Sae-kaatrimees', 'Sae-veski']"
+Oa,2,"['Oa-kartulisupp', 'Oa-maisisalat']"
+Eh,2,"['Eh-eh', 'Eh-hee']"
+Eha,2,"['Eha-nimeline', 'Eha-tamme']"
+ÜLE,2,"['ÜLE-ELAMISI', 'ÜLE-ÖÖ']"
+ALL,2,"['ALL-ILM', 'ALL-LINNA']"
+kii,2,"['kii-resti', 'kii-ruseületajat']"
+siu,2,"['siu-siu', 'siu-siu']"
+Ta,2,"['Ta-randi', 'Ta-su-ta']"
+amm,2,"['amm-loom', 'amm-mesilased']"
+õed,2,"['kaksik-õed', 'õed-põetajad']"
+oi,2,"['oi-jah', 'oi-me-tuks']"
+päh,2,"['päh-harjumusest', 'päh-kel']"
+AEG,2,"['AEG-AJALT', 'KONTROLL-AEG']"
+reo,2,"['regulaatori-reo', 'reo-vee']"
+Liu,2,"['Liu-nimelise', 'Liu-väljad']"
+Toa,2,"['Toa-alpikanni', 'Toa-ema']"
+KAI,2,"['EBE-KAI', 'KAI-MAI']"
+VEE,2,"['VEE-ELUSRESSURSSIDE', 'VEE-EROSIOONIGA']"
+Õue,2,"['Õue-poolses', 'Õue-päevi']"
+Mis,2,"['Mis-asja', 'Mis-tõttu']"
+Oh,2,"['Oh-oh', 'Oh-oo']"
+hee,2,"['Eh-hee', 'eh-hee']"
+kiu,2,"['kiu-fraktsioonide', 'spandex-kiu']"
+šõu,2,"['Põhi-šõu', 'šõu-moment']"
+Asi,2,"['Asi-inimese', 'Asi-tõendiks']"
+söö,2,"['söö-ma', 'söö-mine']"
+ulg,2,"['armu-ulg', 'täiskuu-ulg']"
+uh,2,"['uh-kuse', 'uh-kust']"
+Suu,2,"['Suu-rest', 'Suu-silmad']"
+La,2,"['La-va-mees', 'La-vastaja']"
+Uu,2,"['Uu-ring', 'Uu-te']"
+ork,2,"['geto-ork', 'ork-estri']"
+Näo,2,"['Näo-lõualuu', 'Näo-lõualuude']"
+Too,2,"['Too-kord', 'Too-na']"
+uju,2,"['uju-retk', 'uju-vaid']"
+sul,2,"['Jook-sul', 'jook-sul']"
+Lai,2,"['Lai-ekraanteler', 'Lai-neid']"
+Olu,2,"['Olu-kord', 'Olu-korras']"
+Õie,2,"['Õie-tädi', 'Õie-tädil']"
+Lii,2,"['Lii-sa', 'Lii-vandi']"
+äge,2,"['kitsas-äge', 'äge-rocki']"
+Rea,2,"['Rea-aluste', 'Rea-mees']"
+Man,2,"['Man-iga', 'Man-ist']"
+Alg,2,"['Alg-aja', 'Alg-akadeemiaks']"
+ILM,2,"['ALL-ILM', 'MAA-ILM']"
+Ole,2,"['Ole-me', 'Ole-mine']"
+ätt,2,"['ätt-kogemust', 'ätt-märk']"
+Ja,2,"['Ja-ah', 'Ja-jah']"
+Päi,2,"['Päi-kese', 'Päi-keselinn']"
+nui,2,"['metall-nui', 'nui-uks']"
+Poe,2,"['Poe-kaliibriga', 'Poe-nimeline']"
+Inc,2,"['Inc-iga', 'Inc-ist']"
+põe,1,['põe-tust']
+VIP,1,['VIP-KLASS']
+Õe,1,['Õe-venna']
+Õun,1,['Õun-surmapuu']
+Ird,1,['Ird-hing']
+Vao,1,['Vao-asja']
+aim,1,['lootus-aim']
+PUU,1,['PUU-USKU']
+Tas,1,['Tas-kus']
+Ale,1,['Ale-male']
+oad,1,['kakao-oad']
+fee,1,['fee-juttude']
+Õpe,1,['Õpe-ta-ja-te']
+Uba,1,['Uba-kooli']
+OMA,1,['OMA-ETTE']
+Hei,1,['Hei-no']
+AH,1,['AH-HAA']
+Ehi,1,['Ehi-ta-ja']
+TÖÖ,1,['LOBBY-TÖÖ']
+hoi,1,['hoi-uste']
+Oi,1,['Oi-jah']
+LI,1,['NA-LI']
+Sau,1,['Sau-linnupiima']
+Äiu,1,['Äiu-äiu']
+NÄO,1,['UNE-NÄO-PIDU']
+NÕU,1,['ABI-NÕU']
+Saa,1,['Saa-rist']
+Koo,1,['Koo-raua']
+SÜÜ,1,['KOMMUNISMI-SÜÜ']
+iil,1,['tormi-iil']
+Sa,1,['Sa-muti']
+Raa,1,['Raa-giga']
+Pae,1,['Pae-kivi']
+Puh,1,['Puh-kuse']
+Hai,1,['Hai-kala']
+tõi,1,['tõi-ka']
+Me,1,['Me-reste']
+XXI,1,['C-XXI']
+üte,1,['üte-kate']
+Kah,1,['Kah-ju']
+ALA,1,['MAA-ALA']
+orv,1,['Kiud-orv']
+MD,1,['MD-X']
+Aut,1,['Aut-nimest']
+ÄKA,1,['ÄKA-KURK']
+Ahh,1,['Ahh-aa']
+El,1,['El-ling']
+Piu,1,['Piu-piu']
+Seo,1,['Seo-ses']
+Mia,1,['Mia-mis']
+löö,1,['löö-ma']
+isi,1,['isi-kust']
+Koe,1,['Koe-ensüüm']
+Sun,1,['Sun-niitidest']
+kõh,1,['kõh-na']
+öör,1,['öör-õppejõuna']
+DVI,1,['DVI-I']
+ulm,1,['ulm-naist']
+oga,1,['ristluu-oga']
+OOD,1,['OOD-MEES']
+IL,1,['KELAM-IL']
+Ju,1,['Ju-hm']
+NO,1,['EI-NO']
+Mh,1,['Mh-mh']
+Äär,1,['Äär-tsenter']
+ÖÖ,1,['ÜLE-ÖÖ']
+UNE,1,['UNE-NÄO-PIDU']
+Roo,1,['Roo-loorkull']
+Emu,1,['Emu-mäe']
+roa,1,['võitja-roa']
+Asu,1,['Asu-õunas']
+Ime,1,['Ime-ilus']
+AJU,1,['AJU-SÕLTUVUSEST']
+ui,1,['ui-mastisõltuvuse']
+Ahv,1,['Ahv-kaisukaru']
+AED,1,['AED-HARAKPUTK']
+ISA,1,['ISA-EMA']
+nõe,1,['nõe-la']
+HAA,1,['AH-HAA']
+rüü,1,['patususe-rüü']
+Su,1,['Su-vest']
+EBE,1,['EBE-KAI']
+köe,1,['köe-takse']
+eos,1,['eos-kandjaid']
+hm,1,['Ju-hm']
+Õla,1,['Õla-kaelavöötme']
+kai,1,['kai-probleemid']
+pau,1,['pau-sile']
+ürt,1,['ürt-punanupuga']
+urb,1,['paju-urb']
+Kus,1,['Kus-juures']
+Lõi,1,['Lõi-kuse']
+Tea,1,['Tea-teid']
+ulu,1,['ulu-aluse']
+Lõo,1,['Lõo-kese']
+MDI,1,['MDI-X']
+Nõo,1,['Nõo-kooli']
+ird,1,['ird-detaile']
+Jan,1,['Jan-no']
+AAS,1,['AAS-REBASESABA']
+ASU,1,['ASU-ÕUNAS']
+EP,1,['EP-laste']
+elf,1,['elf-loom-värk']
+ÜHE,1,['ÜHE-MEHE-SAATKONNAD']
+ERI,1,['ERI-ALAL']
+mää,1,['mää-ruse']
+Õel,1,['Õel-vennal']
+Oda,1,['Oda-oda']
+Ain,1,['Ain-saks']
+õrs,1,['õrs-istmetega']
+EES,1,['EES-MÄRGID']
+DI,1,['DI-D']
+EMA,1,['ISA-EMA']
+Ma,1,['Ma-donnast']
+Eda,1,['Eda-sine']
+uut,1,['tutt-uut']
+NOA,1,['NOA-list']
+Õrn,1,['Õrn-habras']
+Isu,1,['Isu-äratav']
+Kes,1,['Kes-kus']
+JAH,1,['OI-JAH']
+käo,1,['käo-kukkumise-kuulamine']
+Uit,1,['Uit-kuu']
+voo,1,['ära-voo-lust']
+Tom,1,['Tom-iga']
+Kii,1,['Kii-su']
+XII,1,['X-XII']
+VÕI,1,['MAA-VÕI']
+Pan,1,['Pan-kade']
+OI,1,['OI-JAH']
+Ass,1,['Ass-huumor']
+Ben,1,['Ben-siin']
+Kas,1,['Kas-või']
+Kae,1,['Kae-kae']
+Tol,1,['Tol-la-ses']
+Ela,1,['Ela-nikud']
+ind,1,['ind-lõpuliseks']
+onn,1,['Heinakuhja-onn']
+Et,1,['Et-te']
+uit,1,['uit-tüdrukut']
+säh,1,['säh-seletused']
+näe,1,['näe-me']
+Aku,1,['Aku-aku']
+oos,1,['oos-saared']
+loe,1,['loe-takse']
+AA,1,['AA-lased']
+erk,1,['erk-oranži']
+HEA,1,['HEA-KURI']
+uje,1,['vaikiv-uje']
+on,1,['Ka-on']
+noo,1,['noo-rest']
+VII,1,['VII-VI']
+boa,1,['boa-lugusid']
+Lae,1,['Lae-va-artisti']
+NA,1,['NA-LI']
+Aa,1,['Aa-rannas']
+Veo,1,['Veo-jõukontrollsüsteem']
+ora,1,['Lind-ora']
+Müü,1,['Müü-me']
+üsa,1,['üsa-nostalgia']
+seo,1,['seo-ses']
+tol,1,['au-tol']
+MX,1,['MX-C']
+bis,1,['vii-bis']
+Ere,1,['Ere-roosakasvioletne']
+Ha,1,['Ha-haa']
+ohe,1,['pettumus-ohe']
+õõs,1,['suu-õõs']
+ent,1,['patsi-ent']
+Lee,1,['Lee-na']
+koi,1,['koi-kalad']
+oss,1,['oss-tüdruk']
+ÜRP,1,['ÜRP-lastest']
+Ots,1,['Ots-otsaga']
+ABI,1,['ABI-NÕU']
+Kai,1,['Kai-mai']
+JÕE,1,['JÕE-KINDLAM']
+ess,1,['ess-tähed']
+ÜHT,1,['ÜHT-TEIST']
+AU,1,['AU-VEDELIK']
+õel,1,['õel-vennal']
+uba,1,['aed-uba']
+Elf,1,['Elf-firma']
+Täh,1,['Täh-te-de']
+neh,1,['No-neh']
+oom,1,['oom-meeter']
+Õle,1,['Õle-kõrs']
+Täi,1,['Täi-sarv']
+XI,1,['X-XI']
+EI,1,['EI-NO']
+ima,1,['kuulsa-ima']
+Pau,1,['Pau-lina']
+kah,1,['kah-ju']
+EGO,1,['EGO-KAITSE']
+Peo,1,['Peo-platsil']
+jao,1,['jao-ülem']
+IRA,1,['IRA-laste']
