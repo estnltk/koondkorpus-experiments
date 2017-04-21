@@ -1,3 +1,4 @@
+number,suffix,pos,form,ending,example,support,decision
 ([1-9][0-9]*)?1[1-9]$,,N,?,0,9918,2016,ok
 ([1-9][0-9]*)?1[1-9]$,lt,N,sg abl,lt,8016-lt,41,ok
 ([1-9][0-9]*)?1[1-9]$,l,N,sg ad,l,911-l,35,ok
@@ -4065,7 +4066,6 @@
 9$|[2-9]9$|([1-9][0-9]*[02-9])9$,aks,O,sg tr,ks,,,ok_no_example
 9$|[2-9]9$|([1-9][0-9]*[02-9])9$,andaks,O,sg tr,ks,,,ok_no_example
 9$|[2-9]9$|([1-9][0-9]*[02-9])9$,daks,O,sg tr,ks,,,ok_no_example
-number,suffix,pos,form,ending,example,support,not_ok
 ([1-9][0-9]*)?1[1-9]$,eta,N,pl ab,teta,,,not_ok
 ([1-9][0-9]*)?1[1-9]$,ta,N,pl ab,teta,,,not_ok
 ([1-9][0-9]*)?1[1-9]$,a,N,pl ab,teta,912a,49,not_ok
