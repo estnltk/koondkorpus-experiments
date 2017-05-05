@@ -1,4 +1,4 @@
-number,suffix,pos,form,ending,example,support,decision,decision
+number,suffix,pos,form,ending,example,support,decision
 ([1-9][0-9]*)?1[1-9]$,,N,?,0,9918,2016,ok
 ([1-9][0-9]*)?1[1-9]$,lt,N,sg abl,lt,8016-lt,41,ok
 ([1-9][0-9]*)?1[1-9]$,l,N,sg ad,l,911-l,35,ok
