@@ -13,6 +13,7 @@ class PlainWordTagger(Tagger):
         self.tokens_tagger = TokensTagger()
         self.compound_tokens_tagger = CompoundTokenTagger()
         self.word_tagger = WordTagger(output_layer=self.output_layer)
+        self.output_attributes = self.word_tagger.output_attributes
 
     def _make_layer(self, text, layers, status):
         tokens = self.tokens_tagger.make_layer(text=text)
