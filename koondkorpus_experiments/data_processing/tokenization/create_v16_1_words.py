@@ -14,4 +14,4 @@ collection = storage.get_collection('koondkorpus_base')
 
 tagger = PlainWordTagger(output_layer='v16_1_words')
 
-collection.create_layer_buffered(tagger=tagger, progressbar='unicode')
+collection.create_layer(tagger=tagger, progressbar='unicode')
