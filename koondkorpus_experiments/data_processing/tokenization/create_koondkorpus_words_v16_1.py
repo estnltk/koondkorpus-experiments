@@ -29,7 +29,7 @@ iter_word_examples = find_examples(collection=collection,
                                    return_count=False,
                                    progressbar='unicode')
 
-with output_collection.buffered_insert() as insert:
+with output_collection.insert() as insert:
     for example, key, span_pos, text in iter_word_examples:
         span = text['v16_1_words'][span_pos]
 
